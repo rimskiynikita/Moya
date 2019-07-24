@@ -1,5 +1,16 @@
 # Next
 
+### Changed
+- **Breaking Change** Minimum target version are now in line with Alamofire 5. iOS: 10.0, tvOS: 10.0, macOS: 10.12. [#1810](https://github.com/Moya/Moya/pull/1810) by [@sunshinejr](https://github.com/sunshinejr).
+- **Breaking Change** Minimum version of `Alamofire` is now 5.0.0-beta.6. [#1810](https://github.com/Moya/Moya/pull/1810) by [@sunshinejr](https://github.com/sunshinejr).
+- **Breaking Change** Removed `Result` depndency in favor of `Result` introduced in Swift 5. [#1858](https://github.com/Moya/Moya/pull/1858) by [@larryonoff](https://github.com/larryonoff).
+
+# [14.0.0-alpha.1] - 2019-05-14
+
+### Changed
+- **Breaking Change** Minimum version of `RxSwift` is now 5.0. [#1846](https://github.com/Moya/Moya/pull/1846) by [@LucianoPAlmeida](https://github.com/LucianoPAlmeida).
+- **Breaking Change** Minimum version of `ReactiveSwift` is now 6.0. [#1849](https://github.com/Moya/Moya/pull/1849) by [@sunshinejr](https://github.com/sunshinejr).
+
 # [13.0.1] - 2019-05-01
 
 ### Fixed
