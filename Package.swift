@@ -15,7 +15,9 @@ let package = Package(
         .library(name: "RxMoya", targets: ["RxMoya"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.0.0-beta.6")),
+        .package(
+            url: "https://github.com/Alamofire/Alamofire.git",
+            from: Version(5, 0, 0, prereleaseIdentifiers: ["beta.5"])),
         .package(url: "https://github.com/ReactiveCocoa/ReactiveSwift.git", .upToNextMajor(from: ("6.0.0"))),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0"))
     ],
@@ -46,5 +48,6 @@ let package = Package(
                 "Tests",
                 "Sources/Supporting Files",
                 "Examples"])
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
